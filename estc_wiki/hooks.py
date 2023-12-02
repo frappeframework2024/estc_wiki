@@ -219,3 +219,10 @@ app_license = "mit"
 # auth_hooks = [
 #	"estc_wiki.auth.validate"
 # ]
+
+
+fixtures = [
+    {"dt": "Wiki Space"},
+    {"dt": "Wiki Page"},
+    {"dt": "File", "filters": [["attached_to_doctype", "=", "Wiki Page Patch"]]},
+]
